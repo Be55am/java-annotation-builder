@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@SupportedAnnotationTypes("com.baeldung.annotation.processor.BuilderProperty")
+@SupportedAnnotationTypes("annotations.BuilderProperty")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @AutoService(Processor.class)
 public class BuilderProcessor extends AbstractProcessor {
